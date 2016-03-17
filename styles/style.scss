@@ -127,3 +127,22 @@ body {
 /**
  * App code
  */
+ $slateColor: #7f8c8d;
+ $bigFont: 36px; 
+.container {
+    text-align: center;
+    width: 75%;
+    margin: 30px auto; 
+}
+.headline {
+    text-align: center;
+    color: $slateColor;
+}
+.listItem {
+    p {
+        font-size: $bigFont;
+    }
+}
+
+
+
